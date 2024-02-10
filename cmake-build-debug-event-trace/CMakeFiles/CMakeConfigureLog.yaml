@@ -1,0 +1,2617 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.6.10-76060610-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      <command-line>: error: missing '(' after predicate
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      CMakeCCompilerId.c:448:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        448 | char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:810:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        810 | char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:811:25: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        811 | char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+            |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:833:3: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        833 |   "INFO" ":" "standard_default[" C_VERSION "]";
+            |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:835:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        835 | const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+            |                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        836 | #if (defined(__clang__) || defined(__GNUC__) || defined(__xlC__) ||           \\
+            | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        837 |      defined(__TI_COMPILER_VERSION__)) &&                                     \\
+            |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        838 |   !defined(__STRICT_ANSI__)
+            |   ~~~~~~~~~~~~~~~~~~~~~~~~~                     
+        839 |   "ON"
+            |   ~~~~                                          
+        840 | #else
+            | ~~~~~                                           
+        841 |   "OFF"
+            |   ~~~~~                                         
+        842 | #endif
+            | ~~~~~~                                          
+        843 | "]";
+            | ~~~                                             
+      CMakeCCompilerId.c:851:5: error: cannot declare ‘::main’ to be a global variable
+        851 | int main(argc, argv) int argc; char *argv[];
+            |     ^~~~
+      CMakeCCompilerId.c:851:10: error: ‘argc’ was not declared in this scope
+        851 | int main(argc, argv) int argc; char *argv[];
+            |          ^~~~
+      CMakeCCompilerId.c:851:16: error: ‘argv’ was not declared in this scope
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                ^~~~
+      CMakeCCompilerId.c:851:20: error: expression list treated as compound expression in initializer [-fpermissive]
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                    ^
+      CMakeCCompilerId.c:851:38: error: storage size of ‘argv’ isn’t known
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                                      ^~~~
+      CMakeCCompilerId.c:855:1: error: expected unqualified-id before ‘{’ token
+        855 | {
+            | ^
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      g++: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+      g++: error: unrecognized command-line option ‘--target=arm-arm-none-eabi’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      <command-line>: error: missing '(' after predicate
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      CMakeCCompilerId.c:448:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        448 | char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:810:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        810 | char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:811:25: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        811 | char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+            |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:833:3: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        833 |   "INFO" ":" "standard_default[" C_VERSION "]";
+            |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:835:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        835 | const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+            |                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        836 | #if (defined(__clang__) || defined(__GNUC__) || defined(__xlC__) ||           \\
+            | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        837 |      defined(__TI_COMPILER_VERSION__)) &&                                     \\
+            |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        838 |   !defined(__STRICT_ANSI__)
+            |   ~~~~~~~~~~~~~~~~~~~~~~~~~                     
+        839 |   "ON"
+            |   ~~~~                                          
+        840 | #else
+            | ~~~~~                                           
+        841 |   "OFF"
+            |   ~~~~~                                         
+        842 | #endif
+            | ~~~~~~                                          
+        843 | "]";
+            | ~~~                                             
+      CMakeCCompilerId.c:851:5: error: cannot declare ‘::main’ to be a global variable
+        851 | int main(argc, argv) int argc; char *argv[];
+            |     ^~~~
+      CMakeCCompilerId.c:851:10: error: ‘argc’ was not declared in this scope
+        851 | int main(argc, argv) int argc; char *argv[];
+            |          ^~~~
+      CMakeCCompilerId.c:851:16: error: ‘argv’ was not declared in this scope
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                ^~~~
+      CMakeCCompilerId.c:851:20: error: expression list treated as compound expression in initializer [-fpermissive]
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                    ^
+      CMakeCCompilerId.c:851:38: error: storage size of ‘argv’ isn’t known
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                                      ^~~~
+      CMakeCCompilerId.c:855:1: error: expected unqualified-id before ‘{’ token
+        855 | {
+            | ^
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      g++: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+      g++: error: unrecognized command-line option ‘--target=arm-arm-none-eabi’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      g++: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      g++: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/3.28.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-fbtgyU"
+      binary: "/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-fbtgyU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-fbtgyU'
+        
+        Run Build Command(s): /home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /home/admin/lpp.net/editc -f Makefile cmTC_878ca/fast
+        permission denied
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: /usr/bin/g++"
+    directories:
+      source: "/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-VmaDhC"
+      binary: "/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-VmaDhC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-VmaDhC'
+        
+        Run Build Command(s): /home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /home/admin/lpp.net/editc -f Makefile cmTC_2412f/fast
+        permission denied
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      <command-line>: error: missing '(' after predicate
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      CMakeCCompilerId.c:448:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        448 | char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:810:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        810 | char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:811:25: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        811 | char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+            |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:833:3: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        833 |   "INFO" ":" "standard_default[" C_VERSION "]";
+            |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:835:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        835 | const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+            |                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        836 | #if (defined(__clang__) || defined(__GNUC__) || defined(__xlC__) ||           \\
+            | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        837 |      defined(__TI_COMPILER_VERSION__)) &&                                     \\
+            |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        838 |   !defined(__STRICT_ANSI__)
+            |   ~~~~~~~~~~~~~~~~~~~~~~~~~                     
+        839 |   "ON"
+            |   ~~~~                                          
+        840 | #else
+            | ~~~~~                                           
+        841 |   "OFF"
+            |   ~~~~~                                         
+        842 | #endif
+            | ~~~~~~                                          
+        843 | "]";
+            | ~~~                                             
+      CMakeCCompilerId.c:851:5: error: cannot declare ‘::main’ to be a global variable
+        851 | int main(argc, argv) int argc; char *argv[];
+            |     ^~~~
+      CMakeCCompilerId.c:851:10: error: ‘argc’ was not declared in this scope
+        851 | int main(argc, argv) int argc; char *argv[];
+            |          ^~~~
+      CMakeCCompilerId.c:851:16: error: ‘argv’ was not declared in this scope
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                ^~~~
+      CMakeCCompilerId.c:851:20: error: expression list treated as compound expression in initializer [-fpermissive]
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                    ^
+      CMakeCCompilerId.c:851:38: error: storage size of ‘argv’ isn’t known
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                                      ^~~~
+      CMakeCCompilerId.c:855:1: error: expected unqualified-id before ‘{’ token
+        855 | {
+            | ^
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      g++: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+      g++: error: unrecognized command-line option ‘--target=arm-arm-none-eabi’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      <command-line>: error: missing '(' after predicate
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      CMakeCCompilerId.c:448:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        448 | char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:810:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        810 | char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:811:25: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        811 | char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+            |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:833:3: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        833 |   "INFO" ":" "standard_default[" C_VERSION "]";
+            |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:835:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        835 | const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+            |                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        836 | #if (defined(__clang__) || defined(__GNUC__) || defined(__xlC__) ||           \\
+            | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        837 |      defined(__TI_COMPILER_VERSION__)) &&                                     \\
+            |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        838 |   !defined(__STRICT_ANSI__)
+            |   ~~~~~~~~~~~~~~~~~~~~~~~~~                     
+        839 |   "ON"
+            |   ~~~~                                          
+        840 | #else
+            | ~~~~~                                           
+        841 |   "OFF"
+            |   ~~~~~                                         
+        842 | #endif
+            | ~~~~~~                                          
+        843 | "]";
+            | ~~~                                             
+      CMakeCCompilerId.c:851:5: error: cannot declare ‘::main’ to be a global variable
+        851 | int main(argc, argv) int argc; char *argv[];
+            |     ^~~~
+      CMakeCCompilerId.c:851:10: error: ‘argc’ was not declared in this scope
+        851 | int main(argc, argv) int argc; char *argv[];
+            |          ^~~~
+      CMakeCCompilerId.c:851:16: error: ‘argv’ was not declared in this scope
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                ^~~~
+      CMakeCCompilerId.c:851:20: error: expression list treated as compound expression in initializer [-fpermissive]
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                    ^
+      CMakeCCompilerId.c:851:38: error: storage size of ‘argv’ isn’t known
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                                      ^~~~
+      CMakeCCompilerId.c:855:1: error: expected unqualified-id before ‘{’ token
+        855 | {
+            | ^
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      g++: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+      g++: error: unrecognized command-line option ‘--target=arm-arm-none-eabi’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      g++: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      g++: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/3.28.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-19uUtx"
+      binary: "/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-19uUtx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-19uUtx'
+        
+        Run Build Command(s): /home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /home/admin/lpp.net/editc -f Makefile cmTC_c9691/fast
+        permission denied
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: /usr/bin/g++"
+    directories:
+      source: "/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-CY6ovG"
+      binary: "/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-CY6ovG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-CY6ovG'
+        
+        Run Build Command(s): /home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /home/admin/lpp.net/editc -f Makefile cmTC_b8a4b/fast
+        permission denied
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      <command-line>: error: missing '(' after predicate
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      CMakeCCompilerId.c:448:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        448 | char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:810:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        810 | char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:811:25: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        811 | char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+            |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:833:3: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        833 |   "INFO" ":" "standard_default[" C_VERSION "]";
+            |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:835:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        835 | const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+            |                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        836 | #if (defined(__clang__) || defined(__GNUC__) || defined(__xlC__) ||           \\
+            | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        837 |      defined(__TI_COMPILER_VERSION__)) &&                                     \\
+            |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        838 |   !defined(__STRICT_ANSI__)
+            |   ~~~~~~~~~~~~~~~~~~~~~~~~~                     
+        839 |   "ON"
+            |   ~~~~                                          
+        840 | #else
+            | ~~~~~                                           
+        841 |   "OFF"
+            |   ~~~~~                                         
+        842 | #endif
+            | ~~~~~~                                          
+        843 | "]";
+            | ~~~                                             
+      CMakeCCompilerId.c:851:5: error: cannot declare ‘::main’ to be a global variable
+        851 | int main(argc, argv) int argc; char *argv[];
+            |     ^~~~
+      CMakeCCompilerId.c:851:10: error: ‘argc’ was not declared in this scope
+        851 | int main(argc, argv) int argc; char *argv[];
+            |          ^~~~
+      CMakeCCompilerId.c:851:16: error: ‘argv’ was not declared in this scope
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                ^~~~
+      CMakeCCompilerId.c:851:20: error: expression list treated as compound expression in initializer [-fpermissive]
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                    ^
+      CMakeCCompilerId.c:851:38: error: storage size of ‘argv’ isn’t known
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                                      ^~~~
+      CMakeCCompilerId.c:855:1: error: expected unqualified-id before ‘{’ token
+        855 | {
+            | ^
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      g++: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+      g++: error: unrecognized command-line option ‘--target=arm-arm-none-eabi’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      <command-line>: error: missing '(' after predicate
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      CMakeCCompilerId.c:448:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        448 | char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:810:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        810 | char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:811:25: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        811 | char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+            |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:833:3: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        833 |   "INFO" ":" "standard_default[" C_VERSION "]";
+            |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:835:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        835 | const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+            |                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        836 | #if (defined(__clang__) || defined(__GNUC__) || defined(__xlC__) ||           \\
+            | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        837 |      defined(__TI_COMPILER_VERSION__)) &&                                     \\
+            |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        838 |   !defined(__STRICT_ANSI__)
+            |   ~~~~~~~~~~~~~~~~~~~~~~~~~                     
+        839 |   "ON"
+            |   ~~~~                                          
+        840 | #else
+            | ~~~~~                                           
+        841 |   "OFF"
+            |   ~~~~~                                         
+        842 | #endif
+            | ~~~~~~                                          
+        843 | "]";
+            | ~~~                                             
+      CMakeCCompilerId.c:851:5: error: cannot declare ‘::main’ to be a global variable
+        851 | int main(argc, argv) int argc; char *argv[];
+            |     ^~~~
+      CMakeCCompilerId.c:851:10: error: ‘argc’ was not declared in this scope
+        851 | int main(argc, argv) int argc; char *argv[];
+            |          ^~~~
+      CMakeCCompilerId.c:851:16: error: ‘argv’ was not declared in this scope
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                ^~~~
+      CMakeCCompilerId.c:851:20: error: expression list treated as compound expression in initializer [-fpermissive]
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                    ^
+      CMakeCCompilerId.c:851:38: error: storage size of ‘argv’ isn’t known
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                                      ^~~~
+      CMakeCCompilerId.c:855:1: error: expected unqualified-id before ‘{’ token
+        855 | {
+            | ^
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      g++: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+      g++: error: unrecognized command-line option ‘--target=arm-arm-none-eabi’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      g++: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      g++: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/3.28.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-GPXOcW"
+      binary: "/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-GPXOcW"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-GPXOcW'
+        
+        Run Build Command(s): /home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /home/admin/lpp.net/editc -f Makefile cmTC_e6d5a/fast
+        permission denied
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: /usr/bin/g++"
+    directories:
+      source: "/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-8jJbc1"
+      binary: "/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-8jJbc1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-8jJbc1'
+        
+        Run Build Command(s): /home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /home/admin/lpp.net/editc -f Makefile cmTC_37093/fast
+        permission denied
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      <command-line>: error: missing '(' after predicate
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      CMakeCCompilerId.c:448:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        448 | char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:810:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        810 | char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:811:25: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        811 | char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+            |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:833:3: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        833 |   "INFO" ":" "standard_default[" C_VERSION "]";
+            |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:835:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        835 | const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+            |                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        836 | #if (defined(__clang__) || defined(__GNUC__) || defined(__xlC__) ||           \\
+            | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        837 |      defined(__TI_COMPILER_VERSION__)) &&                                     \\
+            |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        838 |   !defined(__STRICT_ANSI__)
+            |   ~~~~~~~~~~~~~~~~~~~~~~~~~                     
+        839 |   "ON"
+            |   ~~~~                                          
+        840 | #else
+            | ~~~~~                                           
+        841 |   "OFF"
+            |   ~~~~~                                         
+        842 | #endif
+            | ~~~~~~                                          
+        843 | "]";
+            | ~~~                                             
+      CMakeCCompilerId.c:851:5: error: cannot declare ‘::main’ to be a global variable
+        851 | int main(argc, argv) int argc; char *argv[];
+            |     ^~~~
+      CMakeCCompilerId.c:851:10: error: ‘argc’ was not declared in this scope
+        851 | int main(argc, argv) int argc; char *argv[];
+            |          ^~~~
+      CMakeCCompilerId.c:851:16: error: ‘argv’ was not declared in this scope
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                ^~~~
+      CMakeCCompilerId.c:851:20: error: expression list treated as compound expression in initializer [-fpermissive]
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                    ^
+      CMakeCCompilerId.c:851:38: error: storage size of ‘argv’ isn’t known
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                                      ^~~~
+      CMakeCCompilerId.c:855:1: error: expected unqualified-id before ‘{’ token
+        855 | {
+            | ^
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      g++: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+      g++: error: unrecognized command-line option ‘--target=arm-arm-none-eabi’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      <command-line>: error: missing '(' after predicate
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      CMakeCCompilerId.c:448:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        448 | char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:810:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        810 | char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:811:25: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        811 | char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+            |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:833:3: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        833 |   "INFO" ":" "standard_default[" C_VERSION "]";
+            |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:835:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        835 | const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+            |                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        836 | #if (defined(__clang__) || defined(__GNUC__) || defined(__xlC__) ||           \\
+            | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        837 |      defined(__TI_COMPILER_VERSION__)) &&                                     \\
+            |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        838 |   !defined(__STRICT_ANSI__)
+            |   ~~~~~~~~~~~~~~~~~~~~~~~~~                     
+        839 |   "ON"
+            |   ~~~~                                          
+        840 | #else
+            | ~~~~~                                           
+        841 |   "OFF"
+            |   ~~~~~                                         
+        842 | #endif
+            | ~~~~~~                                          
+        843 | "]";
+            | ~~~                                             
+      CMakeCCompilerId.c:851:5: error: cannot declare ‘::main’ to be a global variable
+        851 | int main(argc, argv) int argc; char *argv[];
+            |     ^~~~
+      CMakeCCompilerId.c:851:10: error: ‘argc’ was not declared in this scope
+        851 | int main(argc, argv) int argc; char *argv[];
+            |          ^~~~
+      CMakeCCompilerId.c:851:16: error: ‘argv’ was not declared in this scope
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                ^~~~
+      CMakeCCompilerId.c:851:20: error: expression list treated as compound expression in initializer [-fpermissive]
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                    ^
+      CMakeCCompilerId.c:851:38: error: storage size of ‘argv’ isn’t known
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                                      ^~~~
+      CMakeCCompilerId.c:855:1: error: expected unqualified-id before ‘{’ token
+        855 | {
+            | ^
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      g++: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+      g++: error: unrecognized command-line option ‘--target=arm-arm-none-eabi’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      g++: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      g++: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/3.28.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-WQ7Rz4"
+      binary: "/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-WQ7Rz4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-WQ7Rz4'
+        
+        Run Build Command(s): /home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /home/admin/lpp.net/editc -f Makefile cmTC_29e8d/fast
+        permission denied
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: /usr/bin/g++"
+    directories:
+      source: "/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-3cX5BR"
+      binary: "/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-3cX5BR"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-3cX5BR'
+        
+        Run Build Command(s): /home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /home/admin/lpp.net/editc -f Makefile cmTC_9702e/fast
+        permission denied
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      <command-line>: error: missing '(' after predicate
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      CMakeCCompilerId.c:448:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        448 | char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:810:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        810 | char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:811:25: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        811 | char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+            |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:833:3: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        833 |   "INFO" ":" "standard_default[" C_VERSION "]";
+            |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:835:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        835 | const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+            |                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        836 | #if (defined(__clang__) || defined(__GNUC__) || defined(__xlC__) ||           \\
+            | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        837 |      defined(__TI_COMPILER_VERSION__)) &&                                     \\
+            |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        838 |   !defined(__STRICT_ANSI__)
+            |   ~~~~~~~~~~~~~~~~~~~~~~~~~                     
+        839 |   "ON"
+            |   ~~~~                                          
+        840 | #else
+            | ~~~~~                                           
+        841 |   "OFF"
+            |   ~~~~~                                         
+        842 | #endif
+            | ~~~~~~                                          
+        843 | "]";
+            | ~~~                                             
+      CMakeCCompilerId.c:851:5: error: cannot declare ‘::main’ to be a global variable
+        851 | int main(argc, argv) int argc; char *argv[];
+            |     ^~~~
+      CMakeCCompilerId.c:851:10: error: ‘argc’ was not declared in this scope
+        851 | int main(argc, argv) int argc; char *argv[];
+            |          ^~~~
+      CMakeCCompilerId.c:851:16: error: ‘argv’ was not declared in this scope
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                ^~~~
+      CMakeCCompilerId.c:851:20: error: expression list treated as compound expression in initializer [-fpermissive]
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                    ^
+      CMakeCCompilerId.c:851:38: error: storage size of ‘argv’ isn’t known
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                                      ^~~~
+      CMakeCCompilerId.c:855:1: error: expected unqualified-id before ‘{’ token
+        855 | {
+            | ^
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      g++: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+      g++: error: unrecognized command-line option ‘--target=arm-arm-none-eabi’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      <command-line>: error: missing '(' after predicate
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      CMakeCCompilerId.c:448:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        448 | char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:810:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        810 | char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:811:25: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        811 | char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+            |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:833:3: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        833 |   "INFO" ":" "standard_default[" C_VERSION "]";
+            |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:835:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        835 | const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+            |                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        836 | #if (defined(__clang__) || defined(__GNUC__) || defined(__xlC__) ||           \\
+            | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        837 |      defined(__TI_COMPILER_VERSION__)) &&                                     \\
+            |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        838 |   !defined(__STRICT_ANSI__)
+            |   ~~~~~~~~~~~~~~~~~~~~~~~~~                     
+        839 |   "ON"
+            |   ~~~~                                          
+        840 | #else
+            | ~~~~~                                           
+        841 |   "OFF"
+            |   ~~~~~                                         
+        842 | #endif
+            | ~~~~~~                                          
+        843 | "]";
+            | ~~~                                             
+      CMakeCCompilerId.c:851:5: error: cannot declare ‘::main’ to be a global variable
+        851 | int main(argc, argv) int argc; char *argv[];
+            |     ^~~~
+      CMakeCCompilerId.c:851:10: error: ‘argc’ was not declared in this scope
+        851 | int main(argc, argv) int argc; char *argv[];
+            |          ^~~~
+      CMakeCCompilerId.c:851:16: error: ‘argv’ was not declared in this scope
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                ^~~~
+      CMakeCCompilerId.c:851:20: error: expression list treated as compound expression in initializer [-fpermissive]
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                    ^
+      CMakeCCompilerId.c:851:38: error: storage size of ‘argv’ isn’t known
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                                      ^~~~
+      CMakeCCompilerId.c:855:1: error: expected unqualified-id before ‘{’ token
+        855 | {
+            | ^
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      g++: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+      g++: error: unrecognized command-line option ‘--target=arm-arm-none-eabi’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      g++: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      g++: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/3.28.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-EmLkrV"
+      binary: "/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-EmLkrV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-EmLkrV'
+        
+        Run Build Command(s): /home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /home/admin/lpp.net/editc -f Makefile cmTC_303a6/fast
+        permission denied
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: /usr/bin/g++"
+    directories:
+      source: "/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-wC4tEy"
+      binary: "/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-wC4tEy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-wC4tEy'
+        
+        Run Build Command(s): /home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /home/admin/lpp.net/editc -f Makefile cmTC_1d71c/fast
+        permission denied
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      <command-line>: error: missing '(' after predicate
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      CMakeCCompilerId.c:448:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        448 | char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:810:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        810 | char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:811:25: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        811 | char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+            |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:833:3: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        833 |   "INFO" ":" "standard_default[" C_VERSION "]";
+            |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:835:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        835 | const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+            |                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        836 | #if (defined(__clang__) || defined(__GNUC__) || defined(__xlC__) ||           \\
+            | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        837 |      defined(__TI_COMPILER_VERSION__)) &&                                     \\
+            |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        838 |   !defined(__STRICT_ANSI__)
+            |   ~~~~~~~~~~~~~~~~~~~~~~~~~                     
+        839 |   "ON"
+            |   ~~~~                                          
+        840 | #else
+            | ~~~~~                                           
+        841 |   "OFF"
+            |   ~~~~~                                         
+        842 | #endif
+            | ~~~~~~                                          
+        843 | "]";
+            | ~~~                                             
+      CMakeCCompilerId.c:851:5: error: cannot declare ‘::main’ to be a global variable
+        851 | int main(argc, argv) int argc; char *argv[];
+            |     ^~~~
+      CMakeCCompilerId.c:851:10: error: ‘argc’ was not declared in this scope
+        851 | int main(argc, argv) int argc; char *argv[];
+            |          ^~~~
+      CMakeCCompilerId.c:851:16: error: ‘argv’ was not declared in this scope
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                ^~~~
+      CMakeCCompilerId.c:851:20: error: expression list treated as compound expression in initializer [-fpermissive]
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                    ^
+      CMakeCCompilerId.c:851:38: error: storage size of ‘argv’ isn’t known
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                                      ^~~~
+      CMakeCCompilerId.c:855:1: error: expected unqualified-id before ‘{’ token
+        855 | {
+            | ^
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      g++: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+      g++: error: unrecognized command-line option ‘--target=arm-arm-none-eabi’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      <command-line>: error: missing '(' after predicate
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      CMakeCCompilerId.c:448:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        448 | char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:810:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        810 | char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:811:25: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        811 | char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+            |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:833:3: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        833 |   "INFO" ":" "standard_default[" C_VERSION "]";
+            |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:835:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+        835 | const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+            |                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        836 | #if (defined(__clang__) || defined(__GNUC__) || defined(__xlC__) ||           \\
+            | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        837 |      defined(__TI_COMPILER_VERSION__)) &&                                     \\
+            |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        838 |   !defined(__STRICT_ANSI__)
+            |   ~~~~~~~~~~~~~~~~~~~~~~~~~                     
+        839 |   "ON"
+            |   ~~~~                                          
+        840 | #else
+            | ~~~~~                                           
+        841 |   "OFF"
+            |   ~~~~~                                         
+        842 | #endif
+            | ~~~~~~                                          
+        843 | "]";
+            | ~~~                                             
+      CMakeCCompilerId.c:851:5: error: cannot declare ‘::main’ to be a global variable
+        851 | int main(argc, argv) int argc; char *argv[];
+            |     ^~~~
+      CMakeCCompilerId.c:851:10: error: ‘argc’ was not declared in this scope
+        851 | int main(argc, argv) int argc; char *argv[];
+            |          ^~~~
+      CMakeCCompilerId.c:851:16: error: ‘argv’ was not declared in this scope
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                ^~~~
+      CMakeCCompilerId.c:851:20: error: expression list treated as compound expression in initializer [-fpermissive]
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                    ^
+      CMakeCCompilerId.c:851:38: error: storage size of ‘argv’ isn’t known
+        851 | int main(argc, argv) int argc; char *argv[];
+            |                                      ^~~~
+      CMakeCCompilerId.c:855:1: error: expected unqualified-id before ‘{’ token
+        855 | {
+            | ^
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      g++: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+      g++: error: unrecognized command-line option ‘--target=arm-arm-none-eabi’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      g++: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      g++: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/3.28.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-t8KeBe"
+      binary: "/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-t8KeBe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-t8KeBe'
+        
+        Run Build Command(s): /home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /home/admin/lpp.net/editc -f Makefile cmTC_cd8c5/fast
+        permission denied
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: /usr/bin/g++"
+    directories:
+      source: "/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-iMhg72"
+      binary: "/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-iMhg72"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-iMhg72'
+        
+        Run Build Command(s): /home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /home/admin/lpp.net/editc -f Makefile cmTC_a0994/fast
+        permission denied
+        
+      exitCode: 1
+...

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="169750b9-55bc-472b-8988-457b42052fb5" name="@localhost Mapping">
+      <data-sources db="dc1407cf-2380-4e3b-b374-2b198976a14c" ddl="b96434d2-c1c8-4f24-835d-583b067d846a" />
+    </mapping>
+  </component>
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="b96434d2-c1c8-4f24-835d-583b067d846a" />
+          <option name="name" value="@localhost (DDL)" />
+          <option name="dbmsName" value="MONGO" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/lamp" />
+            </array>
+          </option>
+          <option name="remarks" value="java.spring.rest c++ dlang.http" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+        </State>
+      </list>
+    </option>
+  </component>
+</project>

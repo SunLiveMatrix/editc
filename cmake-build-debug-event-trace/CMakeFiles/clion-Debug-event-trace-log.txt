@@ -1,0 +1,40 @@
+/home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/admin/lpp.net/editc -DCMAKE_C_COMPILER=/usr/bin/g++ -DCMAKE_CXX_COMPILER=/usr/bin/c++ --profiling-format=google-trace --profiling-output=CMakeFiles/clion-event-trace.json -G "CodeBlocks - Unix Makefiles" -S /home/admin/lpp.net/editc -B /home/admin/lpp.net/editc/cmake-build-debug-event-trace
+CMake Deprecation Warning:
+  Support for "Extra Generators" like
+
+    CodeBlocks
+
+  is deprecated and will be removed from a future version of CMake.  IDEs may
+  use the cmake-file-api(7) to view CMake-generated project build trees.
+
+
+-- The C compiler identification is unknown
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: /usr/bin/g++
+-- Check for working C compiler: /usr/bin/g++ - broken
+CMake Error at /home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:67 (message):
+  The C compiler
+
+    "/usr/bin/g++"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: '/home/admin/lpp.net/editc/cmake-build-debug-event-trace/CMakeFiles/CMakeScratch/TryCompile-iMhg72'
+    
+    Run Build Command(s): /home/admin/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /home/admin/lpp.net/editc -f Makefile cmTC_a0994/fast
+    permission denied
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
