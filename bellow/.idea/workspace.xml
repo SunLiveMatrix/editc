@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="bellow" targetName="bellow" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="55201a69-3f47-4b82-a67a-248729ea3e0b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/bellow.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/click/append/append.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/click/blocking/blocking.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/click/check/check.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/click/checklink/checklink.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/click/checkpass/checkpass.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/click/checkwiki/checkwiki.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/click/click.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/click/click.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/click/count/count.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/click/cplusplus/cplusplus.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/click/energy/energy.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/click/free/free.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/click/freeclick/freeclick.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/click/keylink/keylink.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/click/link/link.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/click/self/self.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/click/water/water.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/analysis/city/policy.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/analysis/condidates/policy.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/analysis/impact/operation.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/analysis/lockstreet/elements.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/analysis/municipal/election.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/analysis/operation/left.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/analysis/operation/right.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/analysis/parties/policy.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/analysis/pl/policy.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/analysis/schemes/election.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/analysis/study/schemes.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/arms/fires.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/bin/paralele.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/carnival/block/states.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/carnival/blocking/reveler/states.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/carnival/blocking/schools/states.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/carnival/blocking/states.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/carnival/blocking/streets/specials.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/carnival/groups/specials.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/carnival/information/schools.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/carnival/paredes/blocking.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/fireman/troops/security.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/history/region.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/intel/bin/operation.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/national/brazil/immunization.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/national/immunization.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/national/ministery/cheers.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/national/vaccination/national.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/orgclick.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/pm/security.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/recognition/facial.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/security/application/resources.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/security/block/clandestines.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/security/camera/process.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/security/carnival/celebration.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/security/celebration/worlds.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/security/commit/resources.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/security/executive/legislative.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/security/hackers/tobreakinto.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/security/meeting/wallet.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/security/population.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/security/population/schemes.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/security/program/govern.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/security/resources/parliamentarians.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/security/reveler/bock.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/security/support/center.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/security/undemocratics/policy.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/investigation/turists/turists.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/operation/kitblack.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/signature.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/create/signature.h" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file:///usr/include/arpa/ftp.h" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="1" />
+    <option name="productBranch" value="Nova" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2cCQNrcMGAx2AmopHZOW5NihrSV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/admin/lpp.net/editc/bellow/money/create/investigation/history",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/money/create/investigation/history" />
+      <recent name="$PROJECT_DIR$/money/create/investigation/carnival/blocking/schools" />
+      <recent name="$PROJECT_DIR$/money/create/investigation/carnival/blocking/reveler" />
+      <recent name="$PROJECT_DIR$/money/create/investigation/carnival/blocking/streets" />
+      <recent name="$PROJECT_DIR$/money/create/investigation/carnival/paredes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/money/click/free" />
+      <recent name="$PROJECT_DIR$/money/click/freeclick" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bellow" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="bellow" TARGET_NAME="bellow" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55201a69-3f47-4b82-a67a-248729ea3e0b" name="Changes" comment="" />
+      <created>1707613044833</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707613044833</updated>
+      <workItem from="1707613048335" duration="8276000" />
+      <workItem from="1707625022379" duration="8909000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

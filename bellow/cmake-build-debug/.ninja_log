@@ -1,0 +1,5 @@
+# ninja log v5
+4	419	1707662985840339071	CMakeFiles/bellow.dir/money/create/signature.cpp.o	baf4736dc667dc44
+3	488	1707662985908339838	CMakeFiles/bellow.dir/money/click/click.cpp.o	4eda811aa4d0e969
+0	504	1707662985924340018	CMakeFiles/bellow.dir/library.cpp.o	2d4f88a6f8de1767
+504	518	1707662985940340198	libbellow.a	5c95b72ff6a67b43
